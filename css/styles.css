@@ -7,6 +7,9 @@ header{
     padding-top: 20px;
 }
 
+header span{
+    font-size: 20px;
+}
 h1{
     font-size: 40px;
 }
@@ -15,6 +18,7 @@ h2{
 }
 p{
     font-size: 20px;
+    
 }
 
 .main-section{
@@ -32,8 +36,27 @@ p{
     width: 50%;
     
 }
+
+a{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    background-color: lightskyblue;
+}
 footer{
     background-color: orange;
     padding-left: 40px;
     padding-bottom: 20px;
+}
+#footer-link{
+    color: black;
 }
